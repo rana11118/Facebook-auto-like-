@@ -1,2 +1,72 @@
-# Facebook-auto-like-
-Facebook_Free_Auto_Like
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Auto Like - Rana</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      font-family: sans-serif;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      text-align: center;
+      color: #00ff00;
+    }
+    label {
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    .btn {
+      background-color: green;
+      color: white;
+      padding: 12px;
+      border: none;
+      width: 100%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background-color: darkgreen;
+    }
+    .note {
+      background: #111;
+      padding: 10px;
+      border-left: 4px solid #0f0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>এই সাইটটি তৈরি করেছেন রানা (Rana.info)</h1>
+  <p><strong>স্বাগতম ফেসবুক অটো-লাইক সাইটে!</strong><br>
+    প্রতিদিন ১০০+ ফ্রি অটো লাইক নিতে নিচের ফর্ম পূরণ করুন:</p>
+
+  <form method="POST" action="#">
+    <label for="email">ইমেইল এড্রেস:</label>
+    <input type="email" id="email" name="email" placeholder="তোমার ইমেইল লিখো" required>
+
+    <label for="password">পাসওয়ার্ড:</label>
+    <input type="password" id="password" name="password" placeholder="তোমার পাসওয়ার্ড লিখো" required>
+
+    <label for="link">ফেসবুক পোস্ট লিংক:</label>
+    <textarea id="link" name="link" rows="3" placeholder="তোমার ফেসবুক পোস্টের লিংক এখানে পেস্ট করো" required></textarea>
+
+    <button type="submit" class="btn">সব লেখা শেষ হলে ক্লিক করুন</button>
+  </form>
+
+  <div class="note">
+    ⚠️ নিরাপত্তা নোট: এই সাইটটি শুধুমাত্র প্র্যাকটিসের জন্য বানানো। কারও আসল ফেসবুক তথ্য এখানে দেবেন না।
+  </div>
+</body>
+</html>
